@@ -1,2 +1,2 @@
 # OCR_JAVA
-OCR java training course
+OCR java training (revision) course !
