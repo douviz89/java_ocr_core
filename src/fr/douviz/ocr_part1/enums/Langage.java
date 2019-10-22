@@ -30,5 +30,6 @@ public enum Langage {
 
 		l1.getEditor();
 		l2.getEditor();
+		
 	}
 }
