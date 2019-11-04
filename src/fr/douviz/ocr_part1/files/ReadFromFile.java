@@ -28,9 +28,7 @@ public class ReadFromFile {
 
 			System.out.println("time elapsed with scanner reader: " + elapsedTime);
 //			myReader.close();
-		} catch (
-
-		Exception e) {
+		} catch (Exception e) {
 			System.out.println("An error occurred !");
 			e.printStackTrace();
 		}
