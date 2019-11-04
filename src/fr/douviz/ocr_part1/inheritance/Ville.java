@@ -1,4 +1,4 @@
-package fr.douviz.ocr_part1;
+package fr.douviz.ocr_part1.inheritance;
 
 import java.util.Objects;
 
