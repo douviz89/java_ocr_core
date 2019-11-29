@@ -22,16 +22,9 @@ public class Main {
 		
 		guerrier.soigner();
 		
-		guerrier.setSoin(new Soin() {
-			public void soigner() {
-				System.out.println("je soigne avec une classe anonyme");
-			}
-		});
+		guerrier.setSoin(() -> System.out.println("je soigne avec une classe anonyme")); // lambda exrepssion
 		
 		guerrier.soigner();
-		
-
-		
 		
 	}
 
