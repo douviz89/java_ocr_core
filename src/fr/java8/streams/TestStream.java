@@ -40,5 +40,6 @@ public class TestStream {
 							.collect(Collectors.toList());
 		System.out.println(ld);
 		
+		
 	}
 }
