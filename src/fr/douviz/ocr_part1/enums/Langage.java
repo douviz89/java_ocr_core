@@ -20,6 +20,7 @@ public enum Langage {
 		System.out.println("Editeur : " + editor);
 	}
 
+	@Override
 	public String toString() {
 		return name;
 	}

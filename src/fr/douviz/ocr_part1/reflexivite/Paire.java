@@ -15,6 +15,7 @@ public class Paire {
 		System.out.println("Instanciation avec des paramètres !");
 	}
 
+	@Override
 	public String toString() {
 		return "Je suis un objet qui a pour valeur : " + this.valeur1 + " - " + this.valeur2;
 	}

@@ -25,6 +25,7 @@ public class Capitale extends Ville {
 	 * 
 	 * @return String retourne la description de l'objet
 	 */
+	@Override
 	public String toString() {
 		String str = super.toString() + "\n \t ==>>" + this.monument + " en est un monument";
 		return str;

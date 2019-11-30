@@ -14,7 +14,7 @@ public class Main {
 		System.out.println("Est-ce un fichier ? " + f.isFile());
 
 		System.out.println("Affichage des lecteurs à la racine du PC : ");
-		for (File file : f.listRoots()) {
+		for (File file : File.listRoots()) {
 			System.out.println(file.getAbsolutePath());
 			try {
 				int i = 1;

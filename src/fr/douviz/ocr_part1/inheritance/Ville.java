@@ -86,6 +86,7 @@ public class Ville {
 	}
 
 	// Retourne la description de la ville
+	@Override
 	public String toString() {
 		return "\t" + this.nomVille + " est une ville de " + this.nomPays + ", elle comporte : " + this.nbreHabitants
 				+ " => elle est donc de catégorie : " + this.categorie;
